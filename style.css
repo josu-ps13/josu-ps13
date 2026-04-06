@@ -9,10 +9,11 @@
   --accent-soft: rgba(58,95,217,0.08);
   --text: #1a1d27;
   --muted: #6b6f88;
+  --radius: 12px;
 }
 
 /* ── Dark theme ── */
-@media (prefers-color-scheme: light) {
+@media (prefers-color-scheme: dark) {
   :root {
     --bg: #0f1117;
     --surface: #1a1d27;
@@ -21,7 +22,6 @@
     --accent-soft: rgba(108,142,251,0.12);
     --text: #e8eaf0;
     --muted: #8b8fa8;
-    --radius: 12px;
   }
 }
 
